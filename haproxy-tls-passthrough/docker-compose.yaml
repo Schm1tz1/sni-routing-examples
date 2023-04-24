@@ -1,0 +1,21 @@
+---
+version: '3.5'
+services:
+  nginx:
+    container_name: haproxy-sni
+    image: haproxy:latest
+    ports:
+      - 8443:443
+    volumes:
+      - ./haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
+    extra_hosts:
+      - "fritz.is.here:127.0.0.1"
+      - "buy.it:127.0.0.1"
+      - "google.it:127.0.0.1"
+      - "git.hub:127.0.0.1"
+    networks:
+      - overlay
+    
+networks:
+  overlay:
+  

@@ -2,7 +2,9 @@
 
 **NOTE:** This repo is still WIP - please use with care!
 
-*A typical use case*: You are using a single proxy/ingress service and need to access different services with different DNS / host names so you need some kind of router to do the job.
+*A typical use case*: You are using a single proxy/ingress service and need to access different backend services via different DNS / host names. You need two thigs to do the job:
+- Some kind of router that will route the backend traffic
+- A DNS entry that is pointing to the router
 
 In HTTP traffic this is done using the header information. For TCP traffic there is a different possibility if using TCP over TLS called SNI routing. Here traffic is routed to backend servers / endpoints using the *server_name* in the SNI extension in TLS.
 

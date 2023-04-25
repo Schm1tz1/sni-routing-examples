@@ -8,9 +8,9 @@ In HTTP traffic this is done using the header information. For TCP traffic there
 
 ## Working Examples
 - **nginx-tls-passthrough** - NGINX OSS example with docker compose
+- **nginx-tls-termination** - NGINX OSS example with docker compose
 
 ## WIP
-- **nginx-tls-termination** - NGINX OSS example with docker compose
 - **haproxy-tls-passthrough** - HAProxy example with docker compose
 
 ## TODO

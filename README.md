@@ -7,8 +7,8 @@ In HTTP traffic this is done using the header information. For TCP traffic there
 ![SNI Routing](./assets/SNI-Routing.svg)
 
 ## Working Examples
-- **nginx-tls-passthrough** - NGINX OSS example with docker compose
-- **nginx-tls-termination** - NGINX OSS example with docker compose
+- **nginx-tls-passthrough** - NGINX OSS example on docker compose
+- **nginx-tls-termination** - NGINX OSS example on docker compose
 
 ## WIP
 - **haproxy-tls-passthrough** - HAProxy example with docker compose

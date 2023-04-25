@@ -14,8 +14,8 @@ services:
       - "google.it:127.0.0.1"
       - "git.hub:127.0.0.1"
     networks:
-      - overlay
+      - backend
     
 networks:
-  overlay:
+  backend:
   

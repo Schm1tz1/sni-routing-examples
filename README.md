@@ -20,5 +20,12 @@ This is a collection of working examples with some common ingress / proxy servic
 - **haproxy-tls-passthrough** - HAProxy example with docker compose
 
 ## TODO
-- **Caddy** - https://caddyserver.com/docs/modules/tls.handshake_match.sni https://caddy.community/t/how-can-i-use-proxy-ssl-name-for-sni-in-caddy-2/7739 https://medium.com/@panda1100/how-to-setup-layer-4-reverse-proxy-to-multiplex-tls-traffic-with-sni-routing-a226c8168826 https://caddyserver.com/docs/json/apps/http/servers/routes/match/host/ https://caddyserver.com/docs/caddyfile/concepts#addresses 
-- **Traefik**: https://kupczynski.info/posts/traefik-sni/
+- **Caddy**:
+  - https://caddyserver.com/docs/modules/tls.handshake_match.sni 
+  - https://caddy.community/t/how-can-i-use-proxy-ssl-name-for-sni-in-caddy-2/7739 
+  - https://medium.com/@panda1100/how-to-setup-layer-4-reverse-proxy-to-multiplex-tls-traffic-with-sni-routing-a226c8168826 
+  - https://caddyserver.com/docs/json/apps/http/servers/routes/match/host/ 
+  - https://caddyserver.com/docs/caddyfile/concepts#addresses 
+- **Traefik**: 
+  - https://kupczynski.info/posts/traefik-sni/
+  - https://traefik.io/blog/traefik-proxy-kubernetes-101/

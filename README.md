@@ -10,6 +10,8 @@ In HTTP traffic this is done using the header information. For TCP traffic there
 
 ![SNI Routing](./assets/SNI-Routing.svg)
 
+This is a collection of working examples with some common ingress / proxy services. For local testing, we are using host name overrides in docker (i.e. creating `/etc/hosts`entries) with `extra_hosts` instead of a DNS server. 
+
 ## Working Examples
 - **nginx-tls-passthrough** - NGINX OSS example on docker compose
 - **nginx-tls-termination** - NGINX OSS example on docker compose
